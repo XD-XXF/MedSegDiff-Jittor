@@ -56,29 +56,6 @@ def main():
         ds = ISICDataset(args, args.data_dir, transform_train, mode="Train")
         args.in_ch = 4
 
-    elif args.data_name == 'BRATS':
-        tran_list = [transforms.Resize((args.image_size, args.image_size))]
-        transform_train = transforms.Compose(tran_list)
-        ds = BRATSDataset3D(args.data_dir, transform_train, test_flag=False)
-        args.in_ch = 5
-
-    elif any(Path(args.data_dir).glob("*\*.nii.gz")):
-        tran_list = [transforms.Resize((args.image_size, args.image_size))]
-        transform_train = transforms.Compose(tran_list)
-        print(f"Loading 3D custom dataset from {args.data_dir}")
-        ds = CustomDataset3D(args, args.data_dir, transform_train)
-        args.in_ch = 4
-
-    else:
-        tran_list = [
-            transforms.Resize((args.image_size, args.image_size)),
-            transforms.ToTensor()
-        ]
-        transform_train = transforms.Compose(tran_list)
-        print(f"Loading 2D custom dataset from {args.data_dir}")
-        ds = CustomDataset(args, args.data_dir, transform_train)
-        args.in_ch = 4
-
     # Jittor数据加载器（替换PyTorch的DataLoader）
     datal = DataLoader(
         ds,
