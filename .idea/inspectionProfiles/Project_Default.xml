@@ -1,0 +1,58 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="45">
+            <item index="0" class="java.lang.String" itemvalue="torch" />
+            <item index="1" class="java.lang.String" itemvalue="torchvision" />
+            <item index="2" class="java.lang.String" itemvalue="pillow" />
+            <item index="3" class="java.lang.String" itemvalue="gitpython" />
+            <item index="4" class="java.lang.String" itemvalue="psutil" />
+            <item index="5" class="java.lang.String" itemvalue="spectral" />
+            <item index="6" class="java.lang.String" itemvalue="featup" />
+            <item index="7" class="java.lang.String" itemvalue="nltk" />
+            <item index="8" class="java.lang.String" itemvalue="scikit_learn" />
+            <item index="9" class="java.lang.String" itemvalue="numpy" />
+            <item index="10" class="java.lang.String" itemvalue="fsspec" />
+            <item index="11" class="java.lang.String" itemvalue="ftfy" />
+            <item index="12" class="java.lang.String" itemvalue="safetensors" />
+            <item index="13" class="java.lang.String" itemvalue="mamba_ssm" />
+            <item index="14" class="java.lang.String" itemvalue="mmengine" />
+            <item index="15" class="java.lang.String" itemvalue="huggingface_hub" />
+            <item index="16" class="java.lang.String" itemvalue="opencv_python" />
+            <item index="17" class="java.lang.String" itemvalue="mmcv" />
+            <item index="18" class="java.lang.String" itemvalue="scipy" />
+            <item index="19" class="java.lang.String" itemvalue="transformers" />
+            <item index="20" class="java.lang.String" itemvalue="timm" />
+            <item index="21" class="java.lang.String" itemvalue="horovod" />
+            <item index="22" class="java.lang.String" itemvalue="pandas" />
+            <item index="23" class="java.lang.String" itemvalue="tqdm" />
+            <item index="24" class="java.lang.String" itemvalue="mmsegmentation" />
+            <item index="25" class="java.lang.String" itemvalue="regex" />
+            <item index="26" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="27" class="java.lang.String" itemvalue="skimage" />
+            <item index="28" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="29" class="java.lang.String" itemvalue="Pillow" />
+            <item index="30" class="java.lang.String" itemvalue="kornia" />
+            <item index="31" class="java.lang.String" itemvalue="pytorch-lightning" />
+            <item index="32" class="java.lang.String" itemvalue="torchmetrics" />
+            <item index="33" class="java.lang.String" itemvalue="omegaconf" />
+            <item index="34" class="java.lang.String" itemvalue="fairscale" />
+            <item index="35" class="java.lang.String" itemvalue="opencv_python_headless" />
+            <item index="36" class="java.lang.String" itemvalue="einops" />
+            <item index="37" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="38" class="java.lang.String" itemvalue="jupyter" />
+            <item index="39" class="java.lang.String" itemvalue="nibabel" />
+            <item index="40" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="41" class="java.lang.String" itemvalue="json5" />
+            <item index="42" class="java.lang.String" itemvalue="SimpleITK" />
+            <item index="43" class="java.lang.String" itemvalue="dcm2nii" />
+            <item index="44" class="java.lang.String" itemvalue="sacred" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
